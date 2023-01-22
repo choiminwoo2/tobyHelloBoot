@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-@Repository
+
 public class HelloRepositoryJdbc implements HelloRepository {
     private final JdbcTemplate jdbcTemplate;
 
