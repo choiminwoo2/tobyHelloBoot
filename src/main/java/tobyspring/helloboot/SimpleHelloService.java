@@ -3,7 +3,7 @@ package tobyspring.helloboot;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class SimpleHelloService implements HelloService {
 
 
